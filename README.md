@@ -12,4 +12,4 @@ Yellow from logo: #FCE235
 
 Get color code from pic: http://html-color-codes.info/colors-from-image/
 
-Bootstrap customize: navbar-inverse-bg
+Bootstrap customize: @brand-primary = #005293
