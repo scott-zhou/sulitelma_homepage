@@ -78,11 +78,17 @@ p {
   text-decoration:none
 }
 
+.navbar {
+  border:0px;
+}
+/*.navbar-inverse {
+  border-color: #FCE235;
+}*/
 .navbar .navbar-header {
-  background-color: #005293;
+  background-color: #FCE235;
 }
 .navbar .navbar-collapse {
-  background-color: #005293;
+  background-color: #FCE235;
 }
 
 /*
