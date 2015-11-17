@@ -78,10 +78,10 @@ p {
   text-decoration:none
 }
 
-.navbar {
+/*.navbar {
   border:0px;
 }
-/*.navbar-inverse {
+.navbar-inverse {
   border-color: #FCE235;
 }*/
 .navbar .navbar-header {
