@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="cmn-Hans-CN">
+<html id="html_element" lang="zh-CN">
 
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
     <title>SULITELMA</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/logo_mini.png" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -20,7 +22,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div id="topnavbar" class="container">
         <nav class="navbar navbar-default">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -33,71 +35,45 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- 
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                     -->
+                    <li><a id="sverige_lang" href="#"><img src="assets/sverige.jpg" /></a></li>
+                    <li><a id="chinese_lang" href="#"><img src="assets/chinese.jpg" /></a></li>
                 </ul>
             </div>
         </nav>
     </div>
+
     <div class="container">
         <div class="row row-offcanvas row-offcanvas-left">
             <!-- sidebar -->
             <!-- /.navbar-static-side -->
-            <div class="col-xs-3 col-sm-2 sidebar" id="sidebar" role="navigation">
+            <div id="sidebar" class="col-xs-3 col-sm-2 sidebar" role="navigation">
                 <ul class="nav">
-                    <li class="active"><a href="index.html">公司简介</a></li>
-                    <li><a href="sweden.html">瑞典<span class="fa arrow"></span></a></li>
+                    <li id="nbs_intro_bar"><a id="nbs_intro" href="#"></a></li>
+                    <li id="nbs_sweden_bar"><a id="nbs_sweden" href="#"></a></li>
                     <ul class="nav nav-second-level">
-                        <li><a href="culture.html">文化</a></li>
-                        <li><a href="#">气候</a></li>
-                        <li><a href="welfare.html">福利</a></li>
+                        <li id="nbs_culture_bar"><a id="nbs_culture" href="#"></a></li>
+                        <li id="nbs_weather_bar"><a id="nbs_weather" href="#"></a></li>
+                        <li id="nbs_welfare_bar"><a id="nbs_welfare" href="#"></a></li>
                     </ul>
-                    <li><a href="#">项目</a></li>
-                    <li><a href="#">服务</a></li>
-                    <li><a href="contact.html">联系方式</a></li>
+                    <li id="nbs_project_bar"><a id="nbs_project" href="#"></a></li>
+                    <li id="nbs_service_bar"><a id="nbs_service" href="#"></a></li>
+                    <li id="nbs_contact_bar"><a id="nbs_contact" href="#"></a></li>
                 </ul>
             </div>
             <div class="col-xs-9 col-sm-10">
                 <div class="col-xs-12">
                     <ul class="nav nav-pills">
-                        <li class="active"><a href="index.html">公司简介</a></li>
-                        <li><a href="sweden.html">瑞典</a></li>
-                        <li><a href="#">项目</a></li>
-                        <li><a href="#">服务</a></li>
-                        <li><a href="contact.html">联系方式</a></li>
+                        <li id="nb_intro_bar"><a id="nb_intro" href="#"></a></li>
+                        <li id="nb_sweden_bar"><a id="nb_sweden" href="#"></a></li>
+                        <li id="nb_project_bar"><a id="nb_project" href="#"></a></li>
+                        <li id="nb_service_bar"><a id="nb_service" href="#"></a></li>
+                        <li id="nb_contact_bar"><a id="nb_contact" href="#"></a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12">
                     <br />
                 </div>
-                <div class="col-xs-12">
-                    <p>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;顶峰资产管理公司 (Sulitelma Kapitalföraltning AB) 是一家注册于瑞典首都斯德哥尔摩的有限责任公司。公司的主营业务为资产和投资管理，目前主要投资目标为大斯德哥尔摩地区及其周边的房地产开发及持有项目，项目类型涉及土地，居住房产，商业房产和旅游地产等。
-                        <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公司运用自身优势，结合瑞典本地情况和国际资本运作的需求，筛选回报高，风险低，投资回报期短的开发和持有项目。在目前瑞典房产市场上升趋势明显的市场条件下，投资获益颇丰。公司近期的发展目标是进一步扩大和完善投资组合配置，确保持续稳定的投资回报。
-                    </p>
-                </div>
-                <div class="col-xs-6">
-                    <img class="img-rounded img-responsive" alt="project 1" src="assets/proj_1.jpg" />
-                    <br />
-                    <p>
-                        I. Donec id elit non mi porta gravida at eget metus.
-                        <br /> II. Fusce dapibus
-                        <br /> III. tellus ac cursus commodo
-                        <br /> IV. tortor mauris condimentum nibh
-                        <br /> V. ut fermentum massa justo sit amet risus
-                        <br /> VI. Etiam porta sem malesuada magna mollis euismod
-                        <br /> VII. Donec sed odio dui.
-                    </p>
-                </div>
-                <div class="col-xs-6">
-                    <img class="img-rounded img-responsive" alt="project 2" src="assets/proj_2.jpg" />
-                    <br />
-                    <p>
-                        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-                    </p>
+                <div id="main">
                 </div>
             </div>
         </div>
@@ -117,4 +93,25 @@
     </div>
 </body>
 
+<script>
+window.onload = function() {
+    var page_available_value = ['intro', 'sweden', 'culture', 'weather', 'welfare', 'project', 'service', 'contact'];
+    var lang_available_value = ['sv', 'cn'];
+    page = getParameterByName('page');
+    if(!isInArray(page, page_available_value)) {
+        page = 'intro'
+    }
+    lang = getParameterByName('lang');
+    if(!isInArray(lang, lang_available_value)) {
+        lang = 'cn'
+    }
+    if(lang == 'sv') {
+        setSwedishNavbar();        
+    }
+    else {
+        setChineseNavbar();
+    }
+    setPageContent(page, lang)
+}
+</script>
 </html>
