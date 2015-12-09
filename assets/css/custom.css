@@ -90,6 +90,9 @@ p {
 .navbar .navbar-collapse {
   background-color: #FCE235;
 }
+.navbar-nav {
+  margin-top: 18px
+}
 
 /*
 .navbar-default {
