@@ -57,3 +57,6 @@ function setPageContent(pagename, language) {
     }
 }
 
+function isInArray(value, array) {
+  return array.indexOf(value) > -1;
+}

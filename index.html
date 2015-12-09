@@ -95,8 +95,16 @@
 
 <script>
 window.onload = function() {
+    var page_available_value = ['intro', 'sweden', 'culture', 'weather', 'welfare', 'project', 'service', 'contact'];
+    var lang_available_value = ['sv', 'cn'];
     page = getParameterByName('page');
+    if(!isInArray(page, page_available_value)) {
+        page = 'intro'
+    }
     lang = getParameterByName('lang');
+    if(!isInArray(lang, lang_available_value)) {
+        lang = 'cn'
+    }
     if(lang == 'sv') {
         setSwedishNavbar();        
     }
