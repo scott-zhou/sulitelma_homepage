@@ -23,6 +23,11 @@ function setSwedishNavbar() {
     setNavbarItem('culture', 'Culture', 'index.html?page=culture&lang=sv')
     setNavbarItem('weather', 'Weather', 'index.html?page=weather&lang=sv')
     setNavbarItem('welfare', 'Welfare', 'index.html?page=welfare&lang=sv')
+    document.getElementById('nbs_sweden').style.display = "none";
+    document.getElementById('nb_sweden').style.display = "none";
+    document.getElementById('nbs_culture').style.display = "none";
+    document.getElementById('nbs_weather').style.display = "none";
+    document.getElementById('nbs_welfare').style.display = "none";
     setNavbarItem('project', 'Project', 'index.html?page=project&lang=sv')
     setNavbarItem('service', 'Service', 'index.html?page=service&lang=sv')
     setNavbarItem('contact', 'Contact', 'index.html?page=contact&lang=sv')
