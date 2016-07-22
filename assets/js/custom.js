@@ -29,6 +29,10 @@ function setSwedishNavbar() {
     document.getElementById('nbs_weather').style.display = "none";
     document.getElementById('nbs_welfare').style.display = "none";
     setNavbarItem('project', 'Project', 'index.html?page=project&lang=sv')
+    document.getElementById('nbs_mariefred').style.display = "none";
+    document.getElementById('nbs_pic').style.display = "none";
+    document.getElementById('nbs_onrequest').style.display = "none";
+    document.getElementById('nbs_floorplan').style.display = "none";
     setNavbarItem('service', 'Service', 'index.html?page=service&lang=sv')
     setNavbarItem('contact', 'Contact', 'index.html?page=contact&lang=sv')
 }
@@ -36,11 +40,18 @@ function setSwedishNavbar() {
 function setChineseNavbar() {
     document.getElementById('html_element').lang = 'zh_CN'
     setNavbarItem('intro', '公司简介', 'index.html?page=intro&lang=cn')
+
     setNavbarItem('sweden', '瑞典', 'index.html?page=sweden&lang=cn')
     setNavbarItem('culture', '文化', 'index.html?page=culture&lang=cn')
     setNavbarItem('weather', '气候', 'index.html?page=weather&lang=cn')
     setNavbarItem('welfare', '福利', 'index.html?page=welfare&lang=cn')
-    setNavbarItem('project', '项目', 'index.html?page=project&lang=cn')
+
+    setNavbarItem('project',   '项目',      'index.html?page=project&lang=cn')
+    setNavbarItem('mariefred', '玛丽弗雷德', 'index.html?page=mariefred&lang=cn')
+    setNavbarItem('pic',       '房屋效果图', 'index.html?page=pic&lang=cn')
+    setNavbarItem('onrequest', '房屋自建',   'index.html?page=onrequest&lang=cn')
+    setNavbarItem('floorplan', '房型图',     'index.html?page=floorplan&lang=cn')
+
     setNavbarItem('service', '服务', 'index.html?page=service&lang=cn')
     setNavbarItem('contact', '联系方式', 'index.html?page=contact&lang=cn')
 }
