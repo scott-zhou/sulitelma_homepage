@@ -22,12 +22,10 @@ function setSwedishNavbar() {
     setNavbarItem('sweden', 'Sverige', 'index.html?page=sweden&lang=sv')
     setNavbarItem('culture', 'Culture', 'index.html?page=culture&lang=sv')
     setNavbarItem('weather', 'Weather', 'index.html?page=weather&lang=sv')
-    setNavbarItem('welfare', 'Welfare', 'index.html?page=welfare&lang=sv')
     document.getElementById('nbs_sweden').style.display = "none";
     document.getElementById('nb_sweden').style.display = "none";
     document.getElementById('nbs_culture').style.display = "none";
     document.getElementById('nbs_weather').style.display = "none";
-    document.getElementById('nbs_welfare').style.display = "none";
     setNavbarItem('project', 'Project', 'index.html?page=project&lang=sv')
     document.getElementById('nbs_mariefred').style.display = "none";
     document.getElementById('nbs_pic').style.display = "none";
@@ -44,7 +42,6 @@ function setChineseNavbar() {
     setNavbarItem('sweden', '瑞典', 'index.html?page=sweden&lang=cn')
     setNavbarItem('culture', '文化', 'index.html?page=culture&lang=cn')
     setNavbarItem('weather', '气候', 'index.html?page=weather&lang=cn')
-    setNavbarItem('welfare', '福利', 'index.html?page=welfare&lang=cn')
 
     setNavbarItem('project',   '项目',      'index.html?page=project&lang=cn')
     setNavbarItem('mariefred', '玛丽弗雷德', 'index.html?page=mariefred&lang=cn')
