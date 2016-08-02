@@ -114,6 +114,9 @@ window.onload = function() {
     if(!isInArray(lang, lang_available_value)) {
         lang = 'cn'
     }
+    if(page == 'project' && lang == 'cn') {
+        page = 'mariefred';
+    }
     if(lang == 'sv') {
         setSwedishNavbar();        
     }
